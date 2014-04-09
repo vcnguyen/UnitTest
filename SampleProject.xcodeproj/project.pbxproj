@@ -21,6 +21,7 @@
 		29E4EA3718F506AC00154FFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E4EA1918F506AC00154FFF /* UIKit.framework */; };
 		29E4EA3F18F506AC00154FFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29E4EA3D18F506AC00154FFF /* InfoPlist.strings */; };
 		29E4EA4118F506AC00154FFF /* SampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E4EA4018F506AC00154FFF /* SampleProjectTests.m */; };
+		BD03E8D418F5C23A0086F84B /* HongNi.png in Resources */ = {isa = PBXBuildFile; fileRef = BD03E8D318F5C23A0086F84B /* HongNi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		29E4EA3C18F506AC00154FFF /* SampleProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleProjectTests-Info.plist"; sourceTree = "<group>"; };
 		29E4EA3E18F506AC00154FFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29E4EA4018F506AC00154FFF /* SampleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleProjectTests.m; sourceTree = "<group>"; };
+		BD03E8D318F5C23A0086F84B /* HongNi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HongNi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		29E4EA1B18F506AC00154FFF /* SampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				BD03E8D218F5C2180086F84B /* Images */,
 				29E4EA2418F506AC00154FFF /* AppDelegate.h */,
 				29E4EA2518F506AC00154FFF /* AppDelegate.m */,
 				29E4EA2718F506AC00154FFF /* Main.storyboard */,
@@ -150,6 +153,14 @@
 				29E4EA3D18F506AC00154FFF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD03E8D218F5C2180086F84B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BD03E8D318F5C23A0086F84B /* HongNi.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD03E8D418F5C23A0086F84B /* HongNi.png in Resources */,
 				29E4EA2E18F506AC00154FFF /* Images.xcassets in Resources */,
 				29E4EA2018F506AC00154FFF /* InfoPlist.strings in Resources */,
 				29E4EA2918F506AC00154FFF /* Main.storyboard in Resources */,
